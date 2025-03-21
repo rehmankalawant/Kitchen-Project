@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-Kitchen</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Train+One&display=swap" rel="stylesheet">
+
+</head>
+
+
+
+<style>
+
+  @font-face {
+    font-family:"mali" ;
+    src: url(./fonts/Mali-SemiBoldItalic.ttf);
+  }
+
+.main-nav
+{
+   width: 100%;
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logotext
+{
+  align-items: center;
+  width:30%;
+  display: flex;
+}
+
+.c-nav
+{
+  align-items: center;
+  width: 60%;
+}
+
+.c-nav ul
+  {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    
+  }
+
+  #divtxt
+  {
+    color: white;
+    font-family: "mali";
+    margin-left: 20px;
+    font-size: 30px;
+    font-stretch:ultra-expanded;
+    float: left;
+  }
+
+  #divimg
+  {
+    margin-left: 20px;
+  }
+
+  .interface
+  {
+    width: 100%;
+    height: 900px;
+    background: url(/mmedia/background2.jpg);
+    background-size:100%;
+    display: flex;
+    border: 2px solid black;
+
+
+    
+    
+  }
+  
+  .interface .menu-image1
+  {
+    
+    color: red;
+    align-items:flex-start;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap;
+     /* transition: 0ms; */
+  }
+
+  
+
+  /* .interface .menu-image1:hover
+  {
+    border: 20px solid white;
+  } */
+
+
+  .name
+  {
+    border: 2px solid yellow;
+    padding: 10px;
+    align-items: center;
+    background-color:rgba(244, 204, 204, 0.474) ;
+    transition:  10s;
+  }
+
+   /* .name:hover
+  {
+    border: 7px solid green;
+
+  }  */
+
+  .name img:hover
+  {
+    /* height: 270px;
+    width: 310px; */
+    /* for flip like animation  */
+    transform: rotate(360deg);
+  transition: 1s;  }
+
+  .name li
+  {
+    color:black;  
+    text-align: center;
+  }
+
+  .head
+  {
+    width: 50%;
+    font-size: 50px;
+    color: black;
+    background-color: skyblue;
+    text-align: center;
+   font-family: "Train One", serif;
+   font-weight: 400;
+   font-style: normal;
+   border: 3px solid black;
+   display: flex;
+   justify-content: space-around;
+   margin-left: 26%;
+}
+
+  
+
+  .btnn
+  {
+    background-color: rgb(234, 92, 234);
+    border-radius: 30px;
+    font-size: 15px;
+    transition-duration: 5ms;
+  }
+
+  .btnn:hover
+  {
+    background-color: green;
+    
+
+  }
+
+
+
+  .c-nav ul :hover
+  {
+  background-color: orange;
+  padding: 10px;
+  border-radius: 50px;
+  
+  }
+
+  .TAbout
+  {
+    width: 50%;
+    height: 150px;
+    border: 2px solid black;
+    background-color: rgba(204, 180, 180, 0.8);
+  }
+
+  .TContact
+  {
+    width: 50%;
+    height: 150px;
+    border: 2px solid black;
+    background-color: rgba(204, 180, 180, 0.8);
+
+  }
+
+  .abco
+  {
+    display: flex;
+    gap:50px;
+
+  }
+
+
+
+  
+  
+
+
+
+
+
+
+</style>
+
+<body>
+    <div class="main-nav">
+
+        <div class="logotext">
+            <div id="divimg"><img src="/mmedia/Vishakha_s-Kitchen-Illustrative-Logo-removebg-preview.png" height="100px"> </a> </div>
+            <div id="divtxt"> Vishakha's Kitchen </div> 
+       </div>
+
+        <div class="c-nav">
+
+
+          <ul type="none">
+            <li>Home</li>
+            <li>Menu</li>
+            <li> <a href="#contact" style="text-decoration: none; color:white"> Contact us</a></li>
+            <li> <a href="#about" style="text-decoration: none; color:white">About us</a> </li>
+            <li>Order</li>
+          </ul>
+        </div>
+
+    </div>
+
+    <br/>
+
+    <span class="head">OUR FAMOUS DISHES</span>
+
+<br>
+
+    <div class="interface">
+      <ul class="menu-image1" type="none">
+        
+    <ul class="name" type="none"> <img src="/mmedia/bitter-gourd-chips.jpg" height="250px" width="300px"> <li type="none"> <hr>The Bitter Gourd Chips <li> <br> <li type="none"><button class="btnn"> Order Now </button></li></ul>
+
+    <ul class="name"> <img src="/mmedia/blackcoffee.jpg" height="250px" width="300px" ><li type="none"> <hr> Black Coffee</li> <br> <li type="none"><button class="btnn"> Order Now </button></li> </ul>
+
+    <ul class="name"> <img src="/mmedia/cholafali.jpeg" height="250px" width="300px" ><li type="none"> <hr> Chola-Fali</li><br> <li type="none"><button class="btnn"> Order Now </button></li></ul>
+
+    <ul class="name"> <img src="mmedia/dal-bati.jpg" height="250px" width="300px" ><li type="none"> <hr> Dal-Bati</li><br> <li type="none"><button class="btnn"> Order Now </button></li></ul>
+
+    <ul class="name"> <img src="/mmedia/misalpav.jpg" height="250px" width="300px" ><li type="none"> <hr> Misal-Pav</li><br> <li type="none"><button class="btnn"> Order Now </button></li></ul>
+
+    <ul class="name"> <img src="/mmedia/pavbhaji.png" height="250px" width="300px" ><li type="none"> <hr> Pav-Bhaji</li><br> <li type="none"><button class="btnn"> Order Now </button></li></ul>
+
+    <ul class="name"> <img src="/mmedia/vadapav.jpg" height="250px" width="300px" ><li type="none"> <hr> Vada-Pav</li><br> <li type="none"><button class="btnn"> Order Now </button></li></ul>
+
+      </ul>
+
+    
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="abco">
+
+    <div id="about" class="TAbout" style="text-align: center;">
+    <h2 > About Us</h2>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, minima. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga assumenda labore exercitationem at? Maxime molestias commodi iste laboriosam est placeat.
+    </div>
+
+    <div id="contact" class="TContact" style="text-align: center;">
+     <h2>Contact Us</h2>
+     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, minima. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga assumenda labore exercitationem at? Maxime molestias commodi iste laboriosam est placeat.
+    </div>
+
+  </div>
+
+  <div style="height: 200px; width: 100%;"></div>
+
+
+
+
+</body>
+</html>
