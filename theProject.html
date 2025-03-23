@@ -122,6 +122,7 @@
   img{
     display: block;
     transition: .3s;
+    border-radius: 14px;
   }
 
   .name img:hover
@@ -135,7 +136,9 @@
   }
 
   .img-box{
+    /* because of overflow hidden , image not going outside after transition  */
     overflow: hidden;
+    border-radius: 15px;
   }
   .name li
   {
@@ -165,8 +168,9 @@
   {
     background-color: rgb(234, 92, 234);
     border-radius: 30px;
-    font-size: 15px;
+    font-size: 18px;
     transition-duration: 5ms;
+    margin-bottom: 10px;
   }
 
   .btnn:hover
@@ -240,13 +244,15 @@
             <li><a>Order</a></li>
           </ul>
         </div>
-        
+
     </div>
 
+    <br/>
     <br/>
 
     <span class="head" id="menu">OUR FAMOUS DISHES</span>
 
+<br>
 <br>
 
     <div class="interface">
@@ -254,17 +260,17 @@
         
     <ul class="name img-box" type="none"> <img src="/mmedia/bitter-gourd-chips.jpg" height="250px" width="300px"> <li type="none"> <hr><h2>Bitter Gourd Chips </h1> <li> <br> <li type="none"><button class="btnn"> Order Now </button></li></ul>
 
-    <ul class="name"> <img src="/mmedia/blackcoffee.jpg" height="250px" width="300px" ><li type="none"> <hr><h2>Black Coffee</h2></li> <br> <li type="none"><button class="btnn"> Order Now </button></li> </ul>
+    <ul class="name img-box"> <img src="/mmedia/blackcoffee.jpg" height="250px" width="300px" ><li type="none"> <hr><h2>Black Coffee</h2></li> <br> <li type="none"><button class="btnn"> Order Now </button></li> </ul>
 
-    <ul class="name"> <img src="/mmedia/cholafali.jpeg" height="250px" width="300px" ><li type="none"> <hr><h2> Chola-Fali </h2></li><br> <li type="none"><button class="btnn"> Order Now </button></li></ul>
+    <ul class="name img-box"> <img src="/mmedia/cholafali.jpeg" height="250px" width="300px" ><li type="none"> <hr><h2> Chola-Fali </h2></li><br> <li type="none"><button class="btnn"> Order Now </button></li></ul>
 
-    <ul class="name"> <img src="mmedia/dal-bati.jpg" height="250px" width="300px" > <li type="none"> <hr><h2>x Dal-Bati </h2></li><br> <li type="none"><button class="btnn"> Order Now </button></li></ul>
+    <ul class="name img-box"> <img src="mmedia/dal-bati.jpg" height="250px" width="300px" > <li type="none"> <hr><h2>x Dal-Bati </h2></li><br> <li type="none"><button class="btnn"> Order Now </button></li></ul>
 
-    <ul class="name"> <img src="/mmedia/misalpav.jpg" height="250px" width="300px" > <li type="none"> <hr><h2> Misal-Pav </h2></li><br> <li type="none"><button class="btnn"> Order Now </button></li></ul>
+    <ul class="name img-box"> <img src="/mmedia/misalpav.jpg" height="250px" width="300px" > <li type="none"> <hr><h2> Misal-Pav </h2></li><br> <li type="none"><button class="btnn"> Order Now </button></li></ul>
 
-    <ul class="name"> <img src="/mmedia/pavbhaji.png" height="250px" width="300px" > <li type="none"> <hr> <h2> Pav-Bhaji </h2></li><br> <li type="none"><button class="btnn"> Order Now </button></li></ul>
+    <ul class="name img-box"> <img src="/mmedia/pavbhaji.png" height="250px" width="300px" > <li type="none"> <hr> <h2> Pav-Bhaji </h2></li><br> <li type="none"><button class="btnn"> Order Now </button></li></ul>
 
-    <ul class="name"> <img src="/mmedia/vadapav.jpg" height="250px" width="300px" > <li type="none"> <hr> <h2> Vada-Pav </h2></li><br> <li type="none"><button class="btnn"> Order Now </button></li></ul>
+    <ul class="name img-box"> <img src="/mmedia/vadapav.jpg" height="250px" width="300px" > <li type="none"> <hr> <h2> Vada-Pav </h2></li><br> <li type="none"><button class="btnn"> Order Now </button></li></ul>
 
       </ul>
 
